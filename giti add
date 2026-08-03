@@ -1,1 +1,9 @@
 cd path/to/your/actual-android-project-folder
+
+git init
+git add .
+git commit -m "Upload Android internship tasks"
+git remote set-url origin https://github.com/sandyc004/android-app-development.git
+git branch -M main
+git push -u origin main --force
+
